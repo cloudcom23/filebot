@@ -1,9 +1,13 @@
 {
-  "name": "FromExistingCode1",
+  "name": "Test",
   "version": "0.0.0",
-  "description": "FromExistingCode1",
+  "description": "Test",
+  "main": "bot.js",
+  "scripts": {
+     "start": "node bot.js"
+   },
   "author": {
-    "name": ""
+    "name": "Sergey"
   },
     "dependencies": {
         "discord-rpc": "^3.0.2",
