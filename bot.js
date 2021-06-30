@@ -2,20 +2,20 @@ const Discord = require("discord.js");
 const calculate = require("node-static");
 const client = new Discord.Client({autoReconnect:true});
 const http = require('http');
-const hook2 = new Discord.WebhookClient('376534450978422788', 'ufA849ESXIzmE7am6Z0mJw5fEJBW85zkDrAZfnAs1sm6LX3L25FZhxUgb8XXXPnY8e_g'); //376534450978422788/ufA849ESXIzmE7am6Z0mJw5fEJBW85zkDrAZfnAs1sm6LX3L25FZhxUgb8XXXPnY8e_g
+const hook2 = new Discord.WebhookClient('nah', 'nah');
 var mante = ('У Файл бота есть вебхук!');
-const hook = new Discord.WebhookClient('345506660850204673', 'l6L6dvynvrFEIanmiQBUHsUkZRZiIrbl6cgwy088e4HjXc8294IRK9nfb-ppox7k8NNO');
+const hook = new Discord.WebhookClient('nah', 'nah');
 var server = ('0 \n P.S - 0 означает (выключен, Minecraft), а 1 наоборот (включен)');
 var fs = require('fs');
 var prompt = require('prompt');
-const hookmante = new Discord.WebhookClient('376534450978422788', 'ufA849ESXIzmE7am6Z0mJw5fEJBW85zkDrAZfnAs1sm6LX3L25FZhxUgb8XXXPnY8e_g');
+const hookmante = new Discord.WebhookClient('nah', 'nah');
 const hostname = '127.0.0.1';
 const port = 3000;
-const rich = require('discord-rich-presence')('340847842526494721');
+const rich = require('discord-rich-presence')('nah');
 
 
 var error_joke = ('E:\File Bot\node_modules\discord.js\src\structures\MessageEmbed.js:13       Object.defineProperty"this, client, "" value: message.client "" \n TypeError: Cannot read property {client} of undefined \n at new MessageEmbed (E:\File Bot\node_modules\discord.js\src\structures\MessageEmbed.js:13:60) \n at Client.client.on.message (E:\File Bot\bot.js:62:21) \n at Client.emit (events.js:193:15) \n at MessageCreateHandler.handle (E:\File Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34) \n at WebSocketPacketManager.handle (E:\File Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:103:65) \n at WebSocketConnection.onPacket (E:\File Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35) \n at WebSocketConnection.onMessage (E:\File Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17) \n at WebSocket.onMessage (E:\File Bot\node_modules\ws\lib\event-target.js:120:16) \n at WebSocket.emit (events.js:188:13) \n at Receiver._receiver.onmessage (E:\File Bot\node_modules\ws\lib\websocket.js:137:47)');
-client.login('MzQwODQ3ODQyNTI2NDk0NzIx.DH2jzg.r7TBvvvCYAks_TBr_iEXEwBMMdY');
+client.login('nah');
 var news = ('OdysseyOST! Теперь Марио!');
 var news2 = ('Новость с дизайном команд'); // Новость
 
@@ -45,7 +45,7 @@ function commandIs(str, msg){
 client.on('ready', () => {
     console.log('Бот в онлайне!');
     client.user.setActivity('код | g!help', { type: 1 });  //client.user.setGame('g!help'); client.user.setActivity('код', { type: 3 });
-    prompt.start(); //375944488696283136 5TzOisivTPsDL1cZ7MB80wmY94SDiSOpAQkPQh_8TVR3Wgrxd47w-TcKcV-x9UC9x2p6
+    prompt.start();
 });
 
 client.on('message', message => { // Команды
@@ -134,6 +134,6 @@ client.on('message', message => { // Команды
         console.log("system32");
     }
 
-//376534450978422788 ufA849ESXIzmE7am6Z0mJw5fEJBW85zkDrAZfnAs1sm6LX3L25FZhxUgb8XXXPnY8e_g
+//no info for u
 });
 
